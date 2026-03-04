@@ -1,0 +1,23 @@
+.cabecalho{
+    height: 150px;
+    width: auto;
+    background-color: black;
+    border-top: 10px;
+    color: white;
+    align-items: center;
+    justify-content:center;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    padding: 0%;
+}
+.subcabecalho{   
+    height: 40px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
