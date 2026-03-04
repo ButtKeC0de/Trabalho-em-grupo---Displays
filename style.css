@@ -21,3 +21,20 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 5px;
 }
+
+section{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 200px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+main{
+    
+}
+body{
+
+}
