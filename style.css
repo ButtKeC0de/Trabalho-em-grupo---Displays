@@ -21,3 +21,43 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 5px;
 }
+section{
+    display:flex;
+    justify-content: center;
+    width: 1000px;
+    height: 200px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+main{
+    
+}
+body{
+
+}
+.container {
+  border: 2px solid #424242;
+  border-radius: 5px;
+  background-color: #575554;
+  width: 400px;
+  padding: 5px;
+}
+
+
+.item {
+  height: 100px;
+  width: 100px;
+  background-color: antiquewhite;
+  border: 1px solid antiquewhite;
+  border-radius: 5px;
+  float: left;
+  
+}
+.containe2{
+    display: flow-root;
+      align-items: center;
+  align-content: center;
+}
+
