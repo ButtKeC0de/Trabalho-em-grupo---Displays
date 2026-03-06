@@ -30,22 +30,26 @@ section{
     margin: 0 auto;
     margin-top: 20px;
 
+
 }
 main{
     
 }
 body{
 
+
 }
 .container {
   border: 2px solid rgb(170, 150, 123);
   border-radius: 5px;
-  background-color: rgb(65, 50, 50)
+  background-color: rgb(65, 50, 50);
   width: 400px;
   padding: 5px;
   align-items: baseline;
   align-content: baseline;
 }
+
+
 
 
 .item {
@@ -60,13 +64,14 @@ body{
     font-size: xx-large;
 }
 
+
 .containe2{
     display: inline flow-root;
     align-items: center;
     align-content: center;
-    font
   
 }
+
 
 section{
     justify-content: center;
@@ -76,11 +81,13 @@ section{
     margin: 0 auto;
     margin-top: 20px;
 
+
 }
 main{
     
 }
 body{
+
 
 }
 .bloco-teste{
@@ -109,9 +116,10 @@ body{
     
 }
 .gl{
-    text-align: center;
-    width: 1000px;
-    height: 300px;
+width: 800px;
+height: 300px;
+align-items: center;
+justify-content: center;
 }
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
