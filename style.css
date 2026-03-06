@@ -40,7 +40,7 @@ body{
 .container {
   border: 2px solid rgb(170, 150, 123);
   border-radius: 5px;
-  background-color: rgb(65, 50, 50)
+  background-color: rgb(65, 50, 50);
   width: 400px;
   padding: 5px;
   align-items: baseline;
@@ -64,7 +64,6 @@ body{
     display: inline flow-root;
     align-items: center;
     align-content: center;
-    font
   
 }
 
@@ -109,9 +108,7 @@ body{
     
 }
 .gl{
-    text-align: center;
-    width: 1000px;
-    height: 300px;
+
 }
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
