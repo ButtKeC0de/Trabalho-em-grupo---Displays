@@ -40,29 +40,33 @@ body{
 .container {
   border: 2px solid rgb(170, 150, 123);
   border-radius: 5px;
-  background-color:  rgb(156, 133, 103);
+  background-color: rgb(65, 50, 50)
   width: 400px;
   padding: 5px;
+  align-items: baseline;
+  align-content: baseline;
 }
 
 
 .item {
-  height: 100px;
-  width: 100px;
-  background-color: rgb(68, 64, 58);
-  border: 1px solid rgb(87, 83, 79);
+  height: 220px;
+  width: 220px;
+  background-color: rgb(151, 145, 145);
+  border: 1px solid rgb(128, 88, 48);
   border-radius: 5px;
-  
-  
+  text-align: center;
+  color: rgb(0, 0, 0);
+    align-content: center;
+    font-size: xx-large;
 }
+
 .containe2{
     display: inline flow-root;
-      align-items: center;
-  align-content: center;
+    align-items: center;
+    align-content: center;
+    font
   
 }
-
-
 
 section{
     justify-content: center;
@@ -100,3 +104,14 @@ body{
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.inl{
+    display: flex;
+    
+}
+
+.gappp{
+
+    gap: 400px;
+}
+
