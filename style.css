@@ -108,7 +108,10 @@ body{
     
 }
 .gl{
-
+width: 800px;
+height: 300px;
+align-items: center;
+justify-content: center;
 }
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
