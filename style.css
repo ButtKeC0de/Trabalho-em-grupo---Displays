@@ -149,3 +149,67 @@ h2{
 .p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bttk_contein{
+
+    display: -ms-inline-grid;
+    grid-template-columns: 200px 200px;
+    background-color: #4a3535;
+    padding: 10px;
+
+}
+
+.telabttk1{
+    background-color: #cfcfcf;
+    border: 3px solid #8a5a2b;
+    height: 150px;
+    display: grid;
+    font-size: 24px;
+   }
