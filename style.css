@@ -86,6 +86,7 @@ body{
     margin: 0 auto;
     background-color: #000080;
     display: block;
+    border: 10px  black;
     text-align: center;
     border-radius: 10px;
     color: ghostwhite ;
@@ -98,6 +99,7 @@ body{
     margin: 10px;
     padding: 5px;
     background-color: #000080;
+    border: 10px  black;
     color: white;
     text-align: center;
     border-radius: 10px;
@@ -121,6 +123,21 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
+    border: 10px ;
+    border-radius: 10px;
+}
+.bloco-teste4{
+    display: inline-flex;
+    height: 60px;
+    width: 100px;
+    background-color: #000080;
+    margin: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px ;
 }
 .gk{
     width: 800px;
@@ -137,9 +154,12 @@ body{
     text-align: center;
 }
 .gp{
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.go{
+    text-align: center;
 }
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
