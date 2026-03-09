@@ -139,6 +139,38 @@ body{
     align-items: center;
     border-radius: 10px ;
 }
+.bloco-teste5{
+    height: 60px;
+    background-color: #000080;
+    color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.bloco-teste6{
+    height: 60px;
+    background-color: #000080;
+    color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.bloco-teste7{
+    float: left;
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    background-color: #000080;
+    color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .gk{
     width: 800px;
     margin: 0 auto;
@@ -171,6 +203,38 @@ body{
     margin: 20px 0;
     border: 2px dashed #22c55e;
     padding: 10px;
+}
+.grd{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(120px, 1fr));
+    gap: 10px;
+    width: 800px;
+    margin: 20px auto;
+    border: 2px dashed #0ea5e9;
+    padding: 10px;
+}
+.sec-inline-grid{
+    text-align: center;
+}
+.igrd{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 140px);
+    gap: 10px;
+    border: 2px dashed #f97316;
+    padding: 10px;
+}
+.frt{
+    display: flow-root;
+    width: 800px;
+    margin: 20px auto;
+    border: 2px dashed #a855f7;
+    padding: 10px;
+    background: #f8fafc;
+}
+.legenda-flow-root{
+    margin: 10px 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f2937;
 }
 .sec-inline-flex{
     text-align: center;
