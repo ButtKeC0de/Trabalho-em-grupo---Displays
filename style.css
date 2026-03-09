@@ -201,7 +201,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     margin: 20px 0;
-    border: 2px dashed #22c55e;
+    border: 2px dashed #94a3b8;;
     padding: 10px;
 }
 .grd{
@@ -210,7 +210,7 @@ body{
     gap: 10px;
     width: 800px;
     margin: 20px auto;
-    border: 2px dashed #0ea5e9;
+    border: 2px dashed #94a3b8;;
     padding: 10px;
 }
 .sec-inline-grid{
@@ -220,14 +220,14 @@ body{
     display: inline-grid;
     grid-template-columns: repeat(2, 140px);
     gap: 10px;
-    border: 2px dashed #f97316;
+    border: 2px dashed #94a3b8;;
     padding: 10px;
 }
 .frt{
     display: flow-root;
     width: 800px;
     margin: 20px auto;
-    border: 2px dashed #a855f7;
+    border: 2px dashed #94a3b8;;
     padding: 10px;
     background: #f8fafc;
 }
