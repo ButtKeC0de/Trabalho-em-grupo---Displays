@@ -1,3 +1,11 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 .cabecalho {
     height: 150px;
     width: auto;
@@ -30,7 +38,7 @@ body {
 }
 
 main {
-    padding: 20px 0 40px;
+    padding: 210px 0 40px;
 }
 
 section {
