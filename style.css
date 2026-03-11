@@ -364,3 +364,33 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
+.position_1{
+    width: 250px;
+    height: 250px;
+    position: static;
+}
+
+.position_2{
+    position: relative;
+     width: 250px;
+    height: 250px;
+    bottom: 50px;
+    left: 300px;
+}
+
+.position_3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 500px;
+}
+
+
+.position_4{
+    position: fixed;
+     width: 250px;
+    height: 250px;
+    left: 0;
+    top: 200;
+}
