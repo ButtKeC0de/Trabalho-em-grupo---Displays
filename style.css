@@ -349,9 +349,92 @@ h2 {
     width: 110px;
     padding: 18px 15px;
     margin: 8px 10px 8px 0;
-    background-color:#1e3a8a;
-    border: 3px solid #ffffff;;
+    background-color: #ffffff;
+    border: 3px solid #1e3a8a;;
     border-radius: 12px;;
     font-size: 16px;
     color:white ;
+}
+
+.block_flow{
+    display: block flow;
+    margin-top: 10px;
+}
+
+.block_flow div{
+    display: block;
+    background-color:  #ffffff;
+    padding: 18px 16px;
+    margin-bottom: 12px;
+    border: 3px solid#1e3a8a;
+
+}
+.tabela_display{
+    display: table;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.linha{
+    display: table-row;
+}
+
+.celula{
+    display: table-cell;
+    padding: 12px 18px;
+    border: 1px solid #333;
+    font-size: 16px;
+    height: 100px;
+}
+
+.cabeca{
+    background-color:#1e3a8a;
+    height: 100px;
+}
+.block_flex{
+    display: block flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.block_flex div{
+    background-color:#1e3a8a;
+    padding: 18px 16px;
+    height: 20px;
+    
+}
+.block_flow_root{
+    display: block flow-root;
+    background-color:#1e3a8a;
+    border: 1px solid #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.block_flow_root .caixa{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+    background-color:#1e3a8a;
+    border: 1px solid #ffffff;
+}
+
+.block_flow_root .caixa:first-child{
+    margin-left: 120px;
+}
+.inline_flow{
+    display: inline flow;
+    background-color: #c7d9eb;
+    padding: 18px 20px;
+    border: 1px solid #1e3a8a;
+    margin-top: 12px;
+}
+
+.inline_flow .item{
+    display: inline;
+    background-color:#1e3a8a;
+    padding: 10px 18px;
+    font-size: 18px;
 }
