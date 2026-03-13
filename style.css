@@ -1,5 +1,5 @@
 header {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -233,7 +233,7 @@ h2 {
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .block_flow_root .caixa:first-child {
